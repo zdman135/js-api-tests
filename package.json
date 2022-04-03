@@ -1,0 +1,25 @@
+{
+  "name": "driver-product-api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config .mocharc.js",
+    "test-report-junit": "mocha --config .mocharc.js --reporter mocha-junit-reporter",
+    "test-report-html": "mocha --config .mocharc.js --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "factory-bot": "^6.2.0",
+    "faker": "^5.1.0",
+    "mocha": "^8.2.1",
+    "mocha-junit-reporter": "^2.0.0",
+    "mochawesome": "^6.2.1",
+    "sequelize": "^6.3.5",
+    "supertest": "^6.0.1"
+  }
+}

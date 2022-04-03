@@ -1,0 +1,7 @@
+# Ignore Setup
+node_modules/
+.env
+
+# Ignore Reporting
+test-results.xml
+mochawesome-report/
